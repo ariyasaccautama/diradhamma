@@ -29,7 +29,7 @@ useEffect(() => {
 
   const scrollToLoveStory = () => {
     document
-      .getElementById("love-story")
+      .getElementById("PhotoCollection")
       ?.scrollIntoView({
         behavior: "smooth",
       });
@@ -285,7 +285,7 @@ useEffect(() => {
                 transition
               "
             >
-              ▶︎ Kisah Kami
+              ▶︎ Favorite
             </button>
 
             <button
