@@ -127,22 +127,37 @@ export default function Closing() {
             className="
               inline-flex
               items-center
-              gap-2
+              gap-3
               mt-4
+              px-6
+              py-3
 
-              text-gray-200
-              hover:text-red-500
+              rounded-full
+              border
+              border-white/20
+
+              bg-white/5
+              backdrop-blur-md
+
+              text-white
+              hover:text-white
+
+              hover:bg-white/10
+              hover:border-red-500/40
+              hover:shadow-lg
+              hover:shadow-red-500/20
 
               transition-all
               duration-300
-
-              hover:scale-105
             "
           >
-            <FaInstagram size={20} />
+            <FaInstagram
+              size={22}
+              className="text-pink-500"
+            />
 
-            <span className="font-medium">
-              Instagram
+            <span className="font-semibold tracking-wide">
+              ariyamelulu
             </span>
           </a>
 
