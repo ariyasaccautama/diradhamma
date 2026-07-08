@@ -186,7 +186,8 @@ export default function RSVP({
         const data =
           await res.json();
 
-        setWishes(data.data);
+        setWishes(Array.isArray(data.data) ? data.data : []);
+        setTotalPages(data.totalPages || 1);
 
         setTotalPages(
           data.totalPages
