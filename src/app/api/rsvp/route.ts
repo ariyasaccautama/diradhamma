@@ -64,7 +64,7 @@ export async function GET(
     data,
     count,
   } = await supabase
-    .from("rsvp_wishes")
+    .from("rsvp")
     .select(
       "*",
       { count: "exact" }
