@@ -105,10 +105,10 @@ const guestName =
 
         <Event />
 
-        {/* <RSVP
+        <RSVP
           guestId={guestId}
           guestName={guestName}
-        /> */}
+        />
 
         {/* <LoveStory /> */}
 
